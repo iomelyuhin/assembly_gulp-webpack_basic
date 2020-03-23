@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.0",
+    "postcss-pxtorem": "^5.1.1",
     "vue": "^2.5.16"
   }
 }
