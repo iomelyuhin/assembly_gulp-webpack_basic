@@ -98,3 +98,12 @@ import slider from "./modules/slider"
 
 slider();
 ```
+
+## Как писать стили?
+#### 1. Стили пишем в синтаксисе .scss(css тоже понимает)
+#### 2. Разбиваем на блоки, называем так же как страницу или модуль.(index.scss или slider.scss)
+#### 3. Блоки складываем в папку assets/styles/blocks/*.scss(подключаются автоматически)
+#### 4. Глобальные стили типа container или button пишем в layout(assets/styles/layout/base.scss)
+#### 5. Переменные пишем в формате json в файле assets/styles/variable.js
+#### 6. Миксины в файле assets/styles/mixins.scss
+#### 7. Пиксели автоматически переводятся в rem, чтобы отменить нужно писать Px или PX
