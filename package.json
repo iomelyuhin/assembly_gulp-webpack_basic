@@ -23,6 +23,7 @@
     "postcss-advanced-variables": "^2.3.3",
     "postcss-easy-import": "^3.0.0",
     "postcss-nested": "^3.0.0",
+    "postcss-pxtorem": "^5.1.1",
     "postcss-scss": "^1.0.5",
     "uglifyjs-webpack-plugin": "^1.2.5",
     "webpack": "^4.11.1",
@@ -30,7 +31,6 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.0",
-    "postcss-pxtorem": "^5.1.1",
     "vue": "^2.5.16"
   }
 }
