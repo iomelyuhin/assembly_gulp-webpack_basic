@@ -5,8 +5,9 @@ block variables
 
 block content
     .container
-        h1.main__title Главная
+        h1.main__title.text-title Главная
+        a(href="/blog/article.html") Блог
     include ../common/slider.pug
     
 block scripts
-    script(src='assets/scripts/index.bundle.js')
+    script(src='/assets/scripts/index.bundle.js')
