@@ -31,7 +31,7 @@
     "webpack-cli": "^3.0.2"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "normalize.css": "^8.0.0",
     "stylelint": "^13.2.1",
     "vue": "^2.6.11"
